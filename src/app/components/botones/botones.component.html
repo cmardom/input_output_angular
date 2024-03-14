@@ -1,0 +1,5 @@
+
+<div class="contenidoBoton mt-3">
+    <p>id:{{boton.id}}/valor:{{boton.valor}}</p>
+    <button #botonHTML (click)="botonPulsado()" [disabled]="botonUsado" type="button" class="btn btn-primary">{{ boton.texto }}</button>
+</div>
